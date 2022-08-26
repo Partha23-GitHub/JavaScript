@@ -1,13 +1,21 @@
 function isPrime(num) {
+  let count = 1;
   for (let i = 2; i <= num; i++) {
-    if (num % i === 0) return false;
-    return true;
+    if (num % i === 0) count++;
   }
+  return count == 2;
 }
+
+let factorial = (number) => {
+  if (number == 1) return 1;
+  return number * factorial(number - 1);
+};
 
 let prime = (lower, upper) => {
   for (let i = lower; i <= upper; i++) {
-    if (isPrime(i)) console.log(i);
+    if (isPrime(i)) {
+      console.log(factorial(i));
+    }
   }
 };
 
