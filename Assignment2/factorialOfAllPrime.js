@@ -1,9 +1,9 @@
 function isPrime(num) {
   let count = 1;
-  for (let i = 2; i <= num; i++) {
+  for (let i = 2; i <= num / 2; i++) {
     if (num % i === 0) count++;
   }
-  return count == 2;
+  return count == 1;
 }
 
 let factorial = (number) => {
