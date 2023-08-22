@@ -19,4 +19,4 @@ let prime = (lower, upper) => {
   }
 };
 
-prime(2, 100);
+prime(2, 12);

@@ -10,3 +10,9 @@ let isAmstrong = (number) => {
 };
 
 console.log(isAmstrong(144));
+
+console.log(Math.pow(3, 2));
+console.log(3 ** 2);
+
+console.log(parseInt(10 / 4));
+console.log(parseFloat(100 / 3).toPrecision(2));

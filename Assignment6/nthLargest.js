@@ -1,5 +1,6 @@
 let returnNthNumber = (array, position) => {
   let newArray = array.sort((a, b) => b - a);
+  console.log(newArray);
   return newArray[position - 1];
 };
 

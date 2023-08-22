@@ -11,6 +11,7 @@ let specialNumber = (number) => {
     factorialSum += factorial(remiender);
     temp = parseInt(temp / 10);
   }
+
   return number === factorialSum;
 };
 

@@ -9,6 +9,7 @@ let putDashes = (number) => {
       result.push(string[i]);
     }
   }
+  console.log(result);
   return result.join("");
 };
 
